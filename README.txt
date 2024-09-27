@@ -48,12 +48,14 @@ Installation Instructions:
 •	Create a MySQL database.
 •	Import the database.sql file (if provided) to set up the required tables.
 •	Update your database credentials in includes/config.php:
+```php
 php
 Copy code
 define('DB_HOST', 'your_db_host');
 define('DB_NAME', 'your_db_name');
 define('DB_USER', 'your_db_user');
 define('DB_PASS', 'your_db_password');
+```
 3. Install Dependencies:
 •	Ensure Composer is installed on your system.
 •	Run composer install in the project root to install PHPMailer and other dependencies.
